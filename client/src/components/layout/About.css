@@ -1,0 +1,12 @@
+.AboutText {
+    margin-top: 1%;
+    margin-left: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    height: 6em;
+    padding: 1em;
+    color: #000;
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }

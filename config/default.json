@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://binbinfan:Fan1989bin@devconnector-axfqi.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
+}
