@@ -6,7 +6,7 @@
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "install": "cd client && npm install",
@@ -28,7 +28,7 @@
     "mongoose": "^5.8.9"
   },
   "devDependencies": {
-    "concurrently": "^5.0.2",
+    "concurrently": "^5.1.0",
     "nodemon": "^2.0.2"
   }
 }
