@@ -13,6 +13,7 @@ Before Start.
         . config: for globle variables.
         . express-validator:to validate any body data gonna come in (user has to have an email that's sent to password).
         . mongoose: react with data.
+        * axios
     3. need deb dependency install as follows:
         . npm i -D nodemon (allow us to keep watching our server sp we don't have to manually restart it ).
         . npm i -D concurrently (allow to run front and back end at the same time)

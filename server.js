@@ -15,6 +15,7 @@ app.use('/api/users', require('./routes/users'));
 app.use('/api/authenticate', require('./routes/authenticate'));
 app.use('/api/profiles', require('./routes/profiles'));
 app.use('/api/techie', require('./routes/techie'));
+
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
   // Set static folder

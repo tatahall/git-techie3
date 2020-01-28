@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const techieController = require("../../controllers/techieController");
+const techieController = require("../controllers/techieController");
 
 
 router
